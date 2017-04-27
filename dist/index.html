@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prod Mode</title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <my-app>Loading AppComponent content here ...</my-app>
+
+    <!-- Polyfill(s) for older browsers -->
+    <script src="/node_modules/core-js/client/shim.min.js"></script>
+
+    <!--Prod mod -->
+    <!--<script src="/node_modules/zone.js/dist/zone.js"></script>
+    <script src="/node_modules/reflect-metadata/Reflect.js"></script>-->
+
+    <script src="js/vendor/zone.js"></script>
+    <script src="js/vendor/Reflect.js"></script>
+    <script src="bundle.min.js"></script>
+
+</body>
+</html>
